@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-nav{
     list-style-type: none;
     margin: 0;
@@ -11,4 +16,14 @@ li{
 
 .name{
     margin-left: 0;
+}
+
+.card-img-top{
+    border-radius: 50%!important;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    width: 15%;
+    height: auto;
 }
