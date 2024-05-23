@@ -27,7 +27,7 @@
 }
 
 .about {
-    height: 140vh;
+    height: 150vh;
     background-color: #291F31;
 }
 
@@ -52,5 +52,19 @@
 }
 
 .m-ab-btn-group{
-    margin-top: 20rem!important;
+    margin-top: 40rem!important;
+}
+
+.ab-header {
+    font-size: 10rem;
+}
+
+.resume {
+    height: 130vh;
+    background-color: #EBEBEB;
+    color: #785990;
+}
+
+.name-resume {
+    max-height: 200px!important;
 }
