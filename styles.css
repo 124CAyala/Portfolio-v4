@@ -63,8 +63,31 @@
     height: 130vh;
     background-color: #EBEBEB;
     color: #785990;
+    margin-bottom: 4rem;
 }
 
 .name-resume {
     max-height: 200px!important;
+}
+
+.works {
+    height: 200vh;
+    background-color: #EBEBEB;
+}
+
+.left {
+    height: 100vh;
+    background-color: #C4C4C4;
+}
+
+.right {
+    height: 100vh;
+    background-color: #3B048A;
+}
+
+.circle {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    background-color: #3B048A;
 }
