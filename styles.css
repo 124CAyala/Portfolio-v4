@@ -13,16 +13,27 @@
     margin-left: 0;
 }
 
+.me-card {
+    background-color: #291F31;
+    border-radius: 6rem;
+}
+
 .card-img-top{
     border-radius: 50%!important;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    width: 30vw;
+    height: auto;
+}
 
+.name-card {
+    background-color: #AD83CE;
+    border-radius: 5rem;
+    color: #AD83CE;
+     -webkit-text-stroke-color: #FFEFF8;
+     -webkit-text-stroke-width: 1.5px;
 }
 
 .home {
+    background-color: #c4c4c4;
     height: 100vh;
 }
 
@@ -71,7 +82,7 @@
 }
 
 .works {
-    height: 200vh;
+    height: 450vh;
     background-color: #EBEBEB;
 }
 
@@ -92,7 +103,7 @@
     background-color: #3B048A;
 }
 
-.btn-works {
+.btn-works-header {
     width: 8vw;
     border-radius: 2rem;
     background-color: white;
@@ -110,5 +121,26 @@
 
 .works-card {
     background-color: #291F31;
+    color: white;
+}
+
+.btn-works {
+    border-radius: 3rem;
+}
+.btn-works{
+    border-radius: 1px 1px 1px 1px;
+}
+
+.collapseIndicator {
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.bg-primary {
+    background-color: #291F31 !important;
+}
+
+.card-body {
+    background-color: #291F31 !important;
     color: white;
 }
