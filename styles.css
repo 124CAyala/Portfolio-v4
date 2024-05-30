@@ -55,7 +55,7 @@
     margin-top: 40rem!important;
 }
 
-.ab-header {
+#ab-header {
     font-size: 10rem;
 }
 
@@ -90,4 +90,25 @@
     width: 25rem;
     border-radius: 50%;
     background-color: #3B048A;
+}
+
+.btn-works {
+    width: 8vw;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+#works-header {
+    font-size: 7rem;
+}
+
+#works-subheader {
+    color: #FFEFF8;
+     -webkit-text-stroke-color: #3B048A;
+     -webkit-text-stroke-width: 1.5px;
+}
+
+.works-card {
+    background-color: #291F31;
+    color: white;
 }

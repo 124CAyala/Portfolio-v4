@@ -97,7 +97,7 @@
     </div>
     <div class="row">
       <div class="col-4 offset-7">
-        <h1 class="ab-header text-light mt-5"><strong>ABOUT</strong></h1>
+        <h1 id="ab-header" class=" text-light mt-5"><strong>ABOUT</strong></h1>
       </div>
     </div>
   </div>
@@ -105,9 +105,16 @@
   <div class="container-fluid works">
     <div class="row d-flex justify-content-center">
       <div class="col-10">
-        <div class="card works-card mt-5" style="width: 100%;">
-          <h1 class="display-1">Works</h1>
+        <div class="card works-card mt-5 d-grid gap-2 d-md-block" style="width: 100%;">
+          <button class="btn btn-works ms-5 my-3" type="button" disabled>Graphic Design</button>
+          <button class="btn btn-works my-3" type="button" disabled>Web Design</button>
+          <h1 class="ms-5 m-3" id="works-header"><strong>Works</strong></h1>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 offset-1">
+        <h1 id="works-subheader" class="pt-4">All Projects</h1>
       </div>
     </div>
   </div>
